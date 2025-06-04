@@ -32,6 +32,7 @@ Use `git checkout <branch>` to switch between them.
 ### 📂 Directory Structure
 
 snoring_detection_backend/
+
 ├── flask_server.py # Flask API server
 
 ├── snoring_detection.py # Audio snoring classification
