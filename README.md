@@ -88,7 +88,7 @@ snoring_detection_backend/
    ```bash
    firebase_admin.initialize_app(cred, {
    'databaseURL': 'https://<your-database-name>.firebaseio.com'  # Replace with your actual URL
-})
+   })
 
 5. **Start Flask Server**:
    
@@ -97,12 +97,12 @@ snoring_detection_backend/
 
 6. **Verify API Endpoints**:
 
-#### Start detection session
-curl -X POST http://localhost:5000/start
+   #### Start detection session
+   curl -X POST http://localhost:5000/start
 
-#### Stop detection session
-curl -X POST http://localhost:5000/stop
+   #### Stop detection session
+   curl -X POST http://localhost:5000/stop
 
-#### Get session summary
-curl http://localhost:5000/session_summary
+   #### Get session summary
+   curl http://localhost:5000/session_summary
 
