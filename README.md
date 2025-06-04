@@ -63,40 +63,46 @@ snoring_detection_backend/
    cd Snoring_detection_Raspberry_pi
    git checkout main
 
-   2. Create and Activate Virtual Environment
-Windows
-bash
-python -m venv .venv
-.venv\Scripts\activate
-macOS/Linux/WSL
-bash
-python3 -m venv .venv
-source .venv/bin/activate
-3. Install Dependencies
-bash
-pip install -r requirements.txt
-4. Configure Firebase Credentials
-Place your Firebase service account JSON file (firebase-adminsdk.json) in the backend directory
+   2. **Create and Activate Virtual Environment**:
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate
+   macOS/Linux/WSL
+   
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
 
-Update firebase_config.py with:
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   
+4. **Configure Firebase Credentials**:
+   ```bash
+   Place your Firebase service account JSON file (firebase-adminsdk.json) in the backend directory
+   Update firebase_config.py with:
 
-python
-cert_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'firebase-adminsdk.json')
-
-firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://<your-database-name>.firebaseio.com'  # Replace with your actual URL
+   ```bash
+   cert_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'firebase-adminsdk.json')
+   
+   ```bash
+   firebase_admin.initialize_app(cred, {
+   'databaseURL': 'https://<your-database-name>.firebaseio.com'  # Replace with your actual URL
 })
-5. Start Flask Server
-bash
-python flask_server.py
-6. Verify API Endpoints
-bash
-# Start detection session
+
+5. **Start Flask Server**:
+   
+   ```bash
+   python flask_server.py
+
+6. **Verify API Endpoints**:
+
+#### Start detection session
 curl -X POST http://localhost:5000/start
 
-# Stop detection session
+#### Stop detection session
 curl -X POST http://localhost:5000/stop
 
-# Get session summary
+#### Get session summary
 curl http://localhost:5000/session_summary
 
