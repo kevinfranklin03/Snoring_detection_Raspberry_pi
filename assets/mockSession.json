@@ -1,0 +1,72 @@
+{
+    "2025-03-15_23-00-00": {
+      "start_time": "2025-03-15 23:00:00",
+      "end_time": "2025-03-16 06:00:00",
+      "total_sleep_minutes": 420,
+      "snoring_minutes": 23,
+      "snoring_events": 48,
+      "avg_snoring_probability": 0.65,
+      "snoring_percent": 5.5,
+      "sleep_quality": "Good"
+    },
+    "2025-03-16_23-00-00": {
+      "start_time": "2025-03-16 23:00:00",
+      "end_time": "2025-03-17 06:00:00",
+      "total_sleep_minutes": 420,
+      "snoring_minutes": 107,
+      "snoring_events": 133,
+      "avg_snoring_probability": 0.3,
+      "snoring_percent": 25.5,
+      "sleep_quality": "Moderate"
+    },
+    "2025-03-17_23-00-00": {
+      "start_time": "2025-03-17 23:00:00",
+      "end_time": "2025-03-18 06:00:00",
+      "total_sleep_minutes": 420,
+      "snoring_minutes": 27,
+      "snoring_events": 63,
+      "avg_snoring_probability": 0.37,
+      "snoring_percent": 6.4,
+      "sleep_quality": "Good"
+    },
+    "2025-03-18_23-00-00": {
+      "start_time": "2025-03-18 23:00:00",
+      "end_time": "2025-03-19 06:00:00",
+      "total_sleep_minutes": 420,
+      "snoring_minutes": 73,
+      "snoring_events": 92,
+      "avg_snoring_probability": 0.61,
+      "snoring_percent": 17.4,
+      "sleep_quality": "Good"
+    },
+    "2025-03-19_23-00-00": {
+      "start_time": "2025-03-19 23:00:00",
+      "end_time": "2025-03-20 06:00:00",
+      "total_sleep_minutes": 420,
+      "snoring_minutes": 119,
+      "snoring_events": 146,
+      "avg_snoring_probability": 0.48,
+      "snoring_percent": 28.3,
+      "sleep_quality": "Moderate"
+    },
+    "2025-03-20_23-00-00": {
+      "start_time": "2025-03-20 23:00:00",
+      "end_time": "2025-03-21 06:00:00",
+      "total_sleep_minutes": 420,
+      "snoring_minutes": 100,
+      "snoring_events": 111,
+      "avg_snoring_probability": 0.55,
+      "snoring_percent": 23.8,
+      "sleep_quality": "Moderate"
+    },
+    "2025-03-21_23-00-00": {
+      "start_time": "2025-03-21 23:00:00",
+      "end_time": "2025-03-22 06:00:00",
+      "total_sleep_minutes": 420,
+      "snoring_minutes": 27,
+      "snoring_events": 37,
+      "avg_snoring_probability": 0.38,
+      "snoring_percent": 6.4,
+      "sleep_quality": "Good"
+    }
+  }
