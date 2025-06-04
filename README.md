@@ -33,12 +33,20 @@ Use `git checkout <branch>` to switch between them.
 
 snoring_detection_backend/
 ├── flask_server.py # Flask API server
+
 ├── snoring_detection.py # Audio snoring classification
+
 ├── firebase_config.py # Firebase integration
+
+
 ├── train_model.py # CNN / CNN-LSTM model training
+
 ├── models/ # Trained ML models (.h5)
+
 ├── dataset/ # Audio training samples
+
 ├── requirements.txt
+
 └── firebase-adminsdk.json # (DO NOT commit – for Firebase auth)
 
 
