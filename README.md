@@ -5,7 +5,8 @@ This project is a full-stack **AI-powered snoring detection system** using:
 - 🧠 **Backend**: Python (Flask + TensorFlow + Firebase) – on the `main` branch
 - 📱 **Frontend**: React Native mobile app – on the `master` branch
 
-It captures real-time audio, classifies snoring using a deep learning model, stores results in Firebase, and visualizes sleep patterns via the mobile app.
+An IoT-powered system that captures real-time audio via Raspberry Pi, uses an AI model to detect snoring events, logs results to Firebase, and delivers visual sleep analytics straight to your phone.
+
 
 ---
 
