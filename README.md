@@ -21,6 +21,17 @@ Use `git checkout <branch>` to switch between them.
 
 ---
 
+## Screen Shots
+![homepage](https://github.com/user-attachments/assets/8de975f9-1bab-4175-aa68-19bf3450950c)
+![snoringDetect](https://github.com/user-attachments/assets/f94127f5-4481-4102-b372-b6a9b850f3cc)
+![weekly rpeort](https://github.com/user-attachments/assets/fb8fc384-9b7c-441c-a3c4-7bb7a58d9cc2)
+![session info](https://github.com/user-attachments/assets/df25bbb6-8a0b-4bd6-9fd1-c057d887d5da)
+![sessionSummary](https://github.com/user-attachments/assets/eb8cdee8-b107-423a-9280-07d32cc33352)
+![cnn_lstm_loss_and_accuracy](https://github.com/user-attachments/assets/4f727604-833b-4984-9c17-c139522d0b9f)
+![CNN_loss_And_Accuracy](https://github.com/user-attachments/assets/d99d8ad4-74fe-4533-b2c9-d8dfcb9a84de)
+
+
+
 ## 📦 Backend (main branch)
 
 ### 🔧 Tech Stack
